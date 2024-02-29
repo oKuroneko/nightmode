@@ -1,0 +1,42 @@
+*{
+    transition: all 1.0s ease-in-out;
+}
+body {
+    background-color: black;
+}
+div {
+    width: 80%;
+    max-width: 400px;
+    height: 50vh;
+    border-radius: 30px;
+    margin: 25vh auto;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+
+}
+h4{
+    font-family: Courier New;
+    font-size: 26px;
+    color: aquamarine;
+}
+#active{
+    font-size: 50px;
+    margin-top: 30%;
+    color: 3fa;
+}
+#unactive{
+    font-size: 50px;
+    margin-top: 30%;
+    color: aqua;
+    display: none;
+}
+p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: monospace;
+    letter-spacing: 2px;
+    color: blueviolet;
+    text-align: center;
+    margin-top: 10vh;
+}

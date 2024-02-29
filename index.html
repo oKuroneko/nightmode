@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Nigga mode</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body id="body">
+
+        <div id="box">
+            <h4 id="h4"><b>Nigga mode On/Off</b></h4>
+            <p id="active" onclick="abc()"><i class="fa fa-toggle-on"></i></p>
+            <p id="unactive" onclick="bca()"><i class="fa fa-toggle-off"></i></p>
+        </div>
+
+        <p>Nigga mode [] By Nekko</p>
+
+        <script>
+
+            functionabc() {
+                document.getElementById('active').style.display="none";
+                document.getElementById('unactive').style.display="block";
+                document.getElementById('body').style.background="whitesmoke";
+                document.getElementById('box').style.background="#fff";
+                document.getElementById('h4').style.color="black";
+            }
+            function() {
+                document.getElementById('unactive').style.display="none";
+                document.getElementById('active').style.display="block";
+                document.getElementById('body').style.background="blacksmoke";
+                document.getElementById('box').style.background="#444";
+                document.getElementById('h4').style.color="white";
+            }
+        </script>
+    </body>
+</html>
